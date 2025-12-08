@@ -1,5 +1,6 @@
-let month = new Date().getMonth() + 1;
+let monthValue = new Date().getMonth() + 1;
 
+function f(month){
 if(month <= 3){
     console.log("prvi godišnji kvartal");
 }
@@ -12,3 +13,6 @@ else if(month <= 9){
 else{
     console.log("cetvrti godišnji kvartal");
 }
+}
+
+f(monthValue);

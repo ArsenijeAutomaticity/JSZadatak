@@ -1,6 +1,7 @@
 let a = 6, b = 8;
 
-if((a+b) > 10)
-    console.log(a+b);
-else
-    console.log(a-b);
+function f(a,b){
+    return (a+b)>10 ? a+b : a-b;
+}
+
+console.log(f(a,b));

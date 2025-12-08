@@ -1,5 +1,6 @@
 let brojBodova = 67;
 
+function f(brojBodova){
 if(brojBodova < 55){
     console.log("ocena 5");
 }
@@ -18,4 +19,6 @@ else if(brojBodova >= 85 && brojBodova <= 94){
 else{
     console.log("ocena 10");
 }
+}
 
+f(brojBodova);
