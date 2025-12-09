@@ -1,4 +1,4 @@
-function f() {
+function oddEavenCount() {
   let newArrayParni = [];
   let newArrayNeparni = [];
 
@@ -9,6 +9,6 @@ function f() {
   return [newArrayParni, newArrayNeparni];
 }
 
-const [parni, neparni] = f();
+const [parni, neparni] = oddEavenCount();
 console.log("parni: " + parni.toString());
 console.log("neparni: " + neparni.toString());

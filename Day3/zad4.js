@@ -23,7 +23,7 @@ let months2 = [
   "decembar",
 ];
 
-function f(ar1, ar2) {
+function monthLogger(ar1, ar2) {
   if (ar1.length > ar2.length) {
     for (let month of ar1) {
       console.log(month);
@@ -35,4 +35,4 @@ function f(ar1, ar2) {
   }
 }
 
-f(months, months2);
+monthLogger(months, months2);

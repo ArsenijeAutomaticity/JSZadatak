@@ -1,6 +1,6 @@
 let nums = [];
 
-function f() {
+function makeArray() {
   let newArray = [];
   for (let i = 1; i <= 100; i++) newArray.push(i);
 
@@ -11,6 +11,6 @@ function printArray(array) {
   for (let ar of array) console.log(ar);
 }
 
-nums = f();
+nums = makeArray();
 
 printArray(nums);

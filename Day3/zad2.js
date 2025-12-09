@@ -1,9 +1,9 @@
 let colors = ["white", "green", "red", "blue", "black"];
 
-function f(colors) {
+function logColors(colors) {
   for (let color of colors) {
     console.log(color);
   }
 }
 
-f(colors);
+logColors(colors);

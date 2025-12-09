@@ -1,4 +1,4 @@
-function f(a, b) {
+function dictMaker(a, b) {
   let c = [];
   for (let i = 0; i < b.length; i++) {
     let key = a[i];
@@ -9,5 +9,5 @@ function f(a, b) {
 
 const a = ["a", "b", "c"];
 const b = ["aaa", "bbb", "ccc"];
-const c = f(a, b);
+const c = dictMaker(a, b);
 console.log(c);

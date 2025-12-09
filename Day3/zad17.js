@@ -1,4 +1,4 @@
-function f(array) {
+function findBiggest(array) {
   array.sort(function (a, b) {
     return a - b;
   });
@@ -6,5 +6,5 @@ function f(array) {
 }
 
 const array = [1, 4, 66, 3, 6, 7, 8, 22];
-const num = f(array);
+const num = findBiggest(array);
 console.log(num);

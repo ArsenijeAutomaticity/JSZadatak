@@ -1,4 +1,4 @@
-function f(a, b) {
+function makeArrayInRange(a, b) {
   let newArray = [];
   for (let i = a; i <= b; i++) {
     newArray.push(i);
@@ -6,5 +6,5 @@ function f(a, b) {
   return newArray;
 }
 
-let the100 = f(66, 123);
+let the100 = makeArrayInRange(66, 123);
 console.log(the100.toString());
