@@ -1,8 +1,7 @@
 function isInRange(arrayN, a, b) {
   if (arrayN.length === 0) return "no elements";
-  for (num of arrayN) {
-    if (num < a || num > b) return false;
-  }
+  arrayN.sort((a, b) => a - b);
+  if (arrayN[0] < a || arrayN[arrayN.length - 1] > b) return false;
   return true;
 }
 

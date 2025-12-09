@@ -1,4 +1,4 @@
-function smallest(arrayN) {
+function findSmallestNumber(arrayN) {
   arrayN.sort(function (a, b) {
     return a - b;
   });

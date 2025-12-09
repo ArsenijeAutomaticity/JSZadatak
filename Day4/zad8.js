@@ -1,4 +1,4 @@
-function f(n) {
+function findTheFirstEavenNumbers(n) {
   let finish = 0;
   let current = n;
   let result = [];
@@ -13,4 +13,4 @@ function f(n) {
   return result;
 }
 
-console.log(f(6));
+console.log(findTheFirstEavenNumbers(6));

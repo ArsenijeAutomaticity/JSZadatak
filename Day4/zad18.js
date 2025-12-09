@@ -1,7 +1,7 @@
 let a1 = [4, 1, 5, 1, 6, 2, 7, 1];
 let a2 = [4, 3, 2, 1];
 
-function f(a1, a2) {
+function findAppearances(a1, a2) {
   let result = [];
   for (el of a2) {
     let num = a1.reduce((total, current) => {
@@ -12,4 +12,4 @@ function f(a1, a2) {
   return result;
 }
 
-console.log(f(a1, a2));
+console.log(findAppearances(a1, a2));

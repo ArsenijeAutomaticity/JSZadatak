@@ -1,4 +1,4 @@
-function f(arrayN, a) {
+function findDivisible(arrayN, a) {
   if (arrayN.length === 0) return "no elements";
   let res = arrayN.filter((x) => x % a === 0);
   return res.length;
