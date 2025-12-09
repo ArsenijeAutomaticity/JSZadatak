@@ -1,8 +1,8 @@
 let time = new Date();
 
-function f(time) {
-  if (time.getHours() > 22 || time.getHours() < 6) console.log("Palim bojler");
-  else console.log("Ne palim bojler");
+function shouldITurnOnMyBojler(time) {
+  if (time.getHours() > 22 || time.getHours() < 6) return "Palim bojler";
+  else return "Ne palim bojler";
 }
 
-f(time);
+console.log(shouldITurnOnMyBojler(time));

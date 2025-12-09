@@ -2,7 +2,7 @@ let a = 2,
   b = 4,
   c = 1;
 
-function f(a, b, c) {
+function sizeThemUp(a, b, c) {
   if (a > b && a > c) {
     console.log(a);
   } else if (b > a && b > c) {
@@ -12,4 +12,4 @@ function f(a, b, c) {
   }
 }
 
-f(a, b, c);
+sizeThemUp(a, b, c);

@@ -1,10 +1,10 @@
 let time = new Date();
 
-function f(value) {
+function isNum(value) {
   let type = typeof value;
 
-  if (type === Number) console.log("Ovo je broj");
-  else console.log("Ovo nije broj nego je " + type);
+  if (type === Number) return "Ovo je broj";
+  else return "Ovo nije broj nego je " + type;
 }
 
-f(time);
+console.log(isNum(time));
