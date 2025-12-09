@@ -1,15 +1,15 @@
-let a = 2, b = 4, c = 1;
+let a = 2,
+  b = 4,
+  c = 1;
 
-function f(a,b,c){
-if(a > b && a > c){
+function f(a, b, c) {
+  if (a > b && a > c) {
     console.log(a);
-}
-else if(b > a && b > c){
+  } else if (b > a && b > c) {
     console.log(b);
-}
-else {
+  } else {
     console.log(c);
-}
+  }
 }
 
-f(a,b,c);
+f(a, b, c);
