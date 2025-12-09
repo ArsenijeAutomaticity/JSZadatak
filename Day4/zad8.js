@@ -1,17 +1,16 @@
-function f(n){
-    let finish = 0;
-    let current = n;
-    let result = [];
+function f(n) {
+  let finish = 0;
+  let current = n;
+  let result = [];
 
-    while(finish<10){
-        if(current%2 === 0){
-            result.push(current);
-            finish++;
-        }
-        current++;
+  while (finish < 10) {
+    if (current % 2 === 0) {
+      result.push(current);
+      finish++;
     }
-    return result;
+    current++;
+  }
+  return result;
 }
-
 
 console.log(f(6));
