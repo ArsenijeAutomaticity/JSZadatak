@@ -1,5 +1,18 @@
-let months = ['januar', 'februar', 'mart', 'april', 'maj', 'jun', 'jul', 'avgust', 'septembar', 'oktobar', 'novembar', 'decembar'];
+let months = [
+  "januar",
+  "februar",
+  "mart",
+  "april",
+  "maj",
+  "jun",
+  "jul",
+  "avgust",
+  "septembar",
+  "oktobar",
+  "novembar",
+  "decembar",
+];
 
-for(let month of months){
-    console.log(month);
+for (let month of months) {
+  console.log(month);
 }

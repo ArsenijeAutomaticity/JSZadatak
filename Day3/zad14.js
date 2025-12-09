@@ -1,15 +1,13 @@
-function f(){
-let newArrayParni = [];
-let newArrayNeparni = [];
+function f() {
+  let newArrayParni = [];
+  let newArrayNeparni = [];
 
-for(let i = 1; i<=100; i+=2){
+  for (let i = 1; i <= 100; i += 2) {
     newArrayNeparni.push(i);
-    newArrayParni.push(i+1);
-
+    newArrayParni.push(i + 1);
+  }
+  return [newArrayParni, newArrayNeparni];
 }
- return [newArrayParni, newArrayNeparni];
-}
-
 
 const [parni, neparni] = f();
 console.log("parni: " + parni.toString());

@@ -1,9 +1,9 @@
-function f(a, b){
-let newArray = []
-for(let i = a; i<=b; i++){
+function f(a, b) {
+  let newArray = [];
+  for (let i = a; i <= b; i++) {
     newArray.push(i);
-}
- return newArray
+  }
+  return newArray;
 }
 
 let the100 = f(66, 123);
