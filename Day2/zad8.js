@@ -1,6 +1,5 @@
 const mathFunc = function (a, b, c) {
-  if (a > 0) return b + c;
-  else return b - c;
+  return a > 0 ? b + c : b - c;
 };
 
 console.log(mathFunc(1, 3, 1));
